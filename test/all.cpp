@@ -1,6 +1,7 @@
 #include <luaopener/luaopener.h>
 
 #include <iostream>
+#include <functional>
 #include <string>
 
 int func1(int a, int b, int c) {
