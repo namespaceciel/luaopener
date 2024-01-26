@@ -59,8 +59,6 @@ void test() {
 
     std::cout << "测试 func3：（）" << '\n';
     opener["func3"].call();
-
-    opener.closeFile();
 }
 
 void test2() {
@@ -69,8 +67,6 @@ void test2() {
         opener.loadFile("../test/test.lua");
 
         opener["ciel"].call();
-
-        opener.closeFile();
     };
 
     f();
